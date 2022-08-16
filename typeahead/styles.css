@@ -1,0 +1,33 @@
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background1.jpg);
+}
+
+
+.python-packages {
+    display: flex;
+    margin: 100px auto 0 auto;
+    min-height: 100px;
+    /* outline: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.python-packages input {
+    min-height: 50px;
+    border-radius: 20px;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
