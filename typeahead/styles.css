@@ -70,28 +70,41 @@ nav {
     z-index: 10;
 }
 
+
+.toggle-hide {
+    display: none;
+}
+
+
+
+/* input field */
 .python-packages {
     display: flex;
     margin: 100px auto 0 auto;
     min-height: 100px;
-    /* outline: 1px solid black; */
+    background-color: lightblue;
+    box-shadow: 5px 5px white;
+    border-radius:10px;
     justify-content: center;
     align-items: center;
     max-width: 700px;
     width: 100%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
 }
 
 
 .python-packages input {
     min-height: 55px;
+    outline: 2px solid lightblue;
     border-radius: 20px;
+
     width: 100%;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
 
-.toggle-hide {
-    display: none;
 }
