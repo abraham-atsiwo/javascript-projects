@@ -15,28 +15,32 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="nav-text">search module</div>
-        <div class="dark-mode">
-          <div class="dark-options dark-options-yes">
-            <i class="fa-solid fa-toggle-on fa-2x"></i>
-            <!-- <i class="fa-duotone fa-book-sparkles"></i> -->
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-container">
+              <div class="nav-text">search module</div>
+              <div class="dark-mode">
+                <div class="dark-options dark-options-yes">
+                  <i class="fa-solid fa-toggle-off fa-2x"></i>
+                  <!-- <i class="fa-duotone fa-book-sparkles"></i> -->
+                </div>
+                <div class="dark-options dark-options-no toggle-hide">
+                  <i class="fa-solid fa-toggle-on fa-2x"></i>
+                  <!-- <i class="fa-duotone fa-book-sparkles"></i> -->
+                </div>
+              </div>
+            </div>
+          </nav>
+      
+          <div class="python-packages">
+            <input
+              type="text"
+              class="typeahead"
+              placeholder="Enter a category to search for all packages, Example: Machine Learning"
+            />
           </div>
-          <div class="dark-options dark-options-no">
-            <i class="fa-solid fa-toggle-off fa-2x"></i>
-            <!-- <i class="fa-duotone fa-book-sparkles"></i> -->
-          </div>
-        </div>
-      </div>
-    </nav>
 
-    <div class="python-packages">
-      <input
-        type="text"
-        class="typeahead"
-        placeholder="Enter a category to search for all packages, Example: Machine Learning"
-      />
+         
     </div>
 
     <script type="text/javascript" src="./index.js"></script>

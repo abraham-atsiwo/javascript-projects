@@ -5,8 +5,19 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background-image: url(background1.jpg); */
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-dark {
+    background: rgba(0, 0, 0, 0.863);
+    color: white;
+}
+
+.container-light {
+    background: white;
+    color: black;
 }
 
 nav {
@@ -14,7 +25,11 @@ nav {
     min-height: 50px;
     top: 0;
     display: flex;
-    position: fixed;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+    /* position: fixed;
+    z-index: 999; */
 }
 
 .nav-container {
@@ -74,4 +89,8 @@ nav {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+.toggle-hide {
+    display: none;
 }
