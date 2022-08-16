@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(background3.jpg)
+
+}
+
 .container{
     display: flex;
     margin: 100px auto 0 auto; 
